@@ -16,13 +16,4 @@ int main()
         cout << setw(10) << x << setw(10) << y << endl;
         x += h;
     }
-    cout << "do:while: " << endl;
-    x = min;
-    cout << "\tx\ty(x)" << endl;
-    do
-    {
-        y = (x * x * x * x * x) + 2 * (x * x) - 3;
-        cout << setw(10) << x << setw(10) << y << endl;
-        x += h;
-    } while (x <= max + h / 2);
 }
