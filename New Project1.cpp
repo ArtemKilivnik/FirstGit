@@ -15,3 +15,4 @@ int main()
     y = (tan(x * x) + y) / x + 5;
     cout << "Output y = " << setprecision(2) << y << endl;
 }
+//Just new comment ;)
