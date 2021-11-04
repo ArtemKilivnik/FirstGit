@@ -5,7 +5,7 @@
 using namespace std;
 int main()
 {
-    float y, x;
+    float y, x, z;
     cout << "Input x: ";
     cin >> x;
     y = 0;
@@ -15,5 +15,5 @@ int main()
     }
     y = (tan(x * x) + y) / x + 5;
     cout << "Output y = " << setprecision(2) << y;
-    //just new commentary
+    
 }
