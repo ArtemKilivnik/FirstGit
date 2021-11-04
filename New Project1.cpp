@@ -10,9 +10,9 @@ int main()
     y = 0;
     for (int n = 1; n < 6; n++)
     {
-        y += sin(n);
+        y += cos(n);
     }
     y = (tan(x * x) + y) / x + 5;
-    cout << "Output y = " << setprecision(2) << y;
-    //just new commentary
+    cout << "Output y = " << setprecision(2) << y << endl;
 }
+//Just new comment ;)
